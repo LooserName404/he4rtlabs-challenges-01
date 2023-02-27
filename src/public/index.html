@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Fable</title>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="fable.ico" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/3567c1b49e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <div class="container">
+
+        <h1>Freeladora</h1>
+        <main>Use a Freeladora pra calcular a facada que você vai dar em seu próximo cliente ;)</main>
+
+        <section class="visor">
+          $ ___,__ / h
+        </section>
+
+        <div class="form-inputs">
+
+          <section>
+            <div class="input-box">
+              <label for="tempo-diario">Tempo diário investido no projeto</label>
+              <input type="number" name="tempo-diario" id="tempo-diario">
+            </div>
+            <i class="fa-solid fa-fw fa-plus"></i>
+          </section>
+
+          <section>
+            <div class="input-box">
+              <label for="dias-efetivos">Dias efetivos trabalhando</label>
+              <input type="number" name="dias-efetivos" id="dias-efetivos">
+            </div>
+            <i class="fa-solid fa-fw fa-minus"></i>
+          </section>
+
+          <section>
+            <div class="input-box">
+              <label for="dias-ferias">Dias de férias por projeto</label>
+              <input type="number" name="dias-ferias" id="dias-ferias">
+            </div>
+            <i class="fa-solid fa-fw fa-multiply"></i>
+          </section>
+
+          <section>
+            <div class="input-box">
+              <label for="total-projeto">Valor total do projeto</label>
+              <input type="number" name="total-projeto" id="total-projeto">
+            </div>
+            <i class="fa-solid fa-fw fa-divide"></i>
+          </section>
+
+          <section>
+            <button class="calc-button">
+              $ Calcular $
+            </button>
+          </section>
+
+        </div>
+
+        <script src="bundle.js"></script>
+      </div>
+    </div>
+  </body>
+</html>

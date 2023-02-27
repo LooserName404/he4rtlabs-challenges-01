@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+body, * {
+  font-family: 'Tilt Neon', cursive;
+}
+
+body {
+  background: #121110;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.container {
+  width: auto;
+  max-width: 600px;
+  margin: auto auto;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  padding: 30px 20px 40px 20px;
+  border: 3px solid white;
+  border-radius: 12px;
+}
+
+.container h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.container main {
+  margin: 0px auto;
+  text-align: center;
+  font-size: 1.5rem;
+  max-width: 95%;
+}
+
+.visor {
+  margin: 30px auto;
+  font-size: 5rem;
+  padding: 1rem;
+  max-width: 88%;
+  border: 2px solid orange;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-inputs .input-box {
+  margin-right: 4px;
+  display: inline-block;
+  font-size: 24px;
+}
+
+.form-inputs .input-box label {
+  display: block;
+  text-align: left;
+}
+
+.form-inputs .input-box input {
+  text-align: left;
+  text-decoration: none;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  padding: 0.5rem;
+}
+
+.form-inputs i {
+  margin: 0;
+  padding: 1.62rem;
+  position: relative;
+  bottom: 0.5rem;
+  border-radius: 3px;
+  background: orange;
+  color: white;
+}
+
+.form-inputs .calc-button {
+  margin-top: 20px;
+  width: 95%;
+  padding: 1rem;
+  font-size: 28px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  border-color: transparent;
+  background: orange;
+  word-spacing: 5rem;
+}
+
+.form-inputs .calc-button:hover {
+  background: #ffb533;
+}
+
